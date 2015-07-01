@@ -13,195 +13,170 @@
     <link rel="stylesheet" type="text/css" href="css/jqueryba.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <style type="text/css">
-        body{
-            font-family: "微软雅黑","Arial";
-        }
-        <!--
-        
-        #box {
-            position:relative;
-            width:100%;
-            height:580px;
-           
-        }
-        #box .imgList{
-            position:relative;
-            width:100%;
-            height:580px;
-            overflow:hidden;
-        }
-        #box .imgList li{
-            position:absolute;
-            top:0;
-            left:0;
-            width:100%;
-            height:580px;
-        }
-        #box .imgList li img{
-            width: 100%;
-            height: 100%;
-        }
-        #box .countNum{
-            position:absolute;
-            right:0;
-            bottom:5px;
-        }
-        #box .countNum li{
-            width:20px;
-            height:20px;
-            float:left;
-            color:#fff;
-            border-radius:20px;
-            background:#f90;
-            text-align:center;
-            margin-right:5px;
-            cursor:pointer;
-            opacity:0.7;
-            filter:alpha(opacity=70);
-        }
-        #box .countNum li.current{
-            background:#f60;
-            font-weight:bold;
-            opacity:1;
-            filter:alpha(opacity=70);
-        }
-        -->
-</style>
-    </style>
+    body {
+        font-family: "微软雅黑", "Arial";
+    }
     
+    <!-- #box {
+        position: relative;
+        width: 100%;
+        height: 580px;
+    }
+    
+    #box .imgList {
+        position: relative;
+        width: 100%;
+        height: 580px;
+        overflow: hidden;
+    }
+    
+    #box .imgList li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 580px;
+    }
+    
+    #box .imgList li img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #box .countNum {
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+    }
+    
+    #box .countNum li {
+        width: 20px;
+        height: 20px;
+        float: left;
+        color: #fff;
+        border-radius: 20px;
+        background: #f90;
+        text-align: center;
+        margin-right: 5px;
+        cursor: pointer;
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+    }
+    
+    #box .countNum li.current {
+        background: #f60;
+        font-weight: bold;
+        opacity: 1;
+        filter: alpha(opacity=70);
+    }
+    
+    -->
+    </style>
+    </style>
 </head>
 
 <body>
-    
-        <div class="aspNetHidden">
-       
-        <div id="indexDiv" style="overflow: hidden;">
-            <div class="topHeader">
-                <div id="header">
-                    <div id="logo">
-                        <a href="javacript:void">
-                            <img src="./oto_images/logo.png" width="180" height="62"></a>
-                    </div>
-                    <div class="top_nav top_scroll" id="menuNav">
-                        <a href="#" class="">
+    <!-- top nav -->
+    <div class="topHeader">
+        <div id="header">
+            <div id="logo">
+                <a href="javacript:void">
+                    <img src="./oto_images/logo.png" width="180" height="62"></a>
+            </div>
+            <div class="top_nav top_scroll" id="menuNav">
+                <a href="#" class="">
                                 首页
                                 <div class="navBg" style="display: none;">
                                 </div>
                             </a>
-                        <a href="#">
+                <a href="#">
                                 产品与解决方案
                                 <div class="navBg" style="display: none;">
                                 </div>
                             </a>
-                        <a href="#">
+                <a href="#">
                                 新闻中心
                                 <div class="navBg" style="display: none;">
                                 </div>
                             </a>
-                        <a href="#">
+                <a href="#">
                                 关于我们
                                 <div class="navBg" style="display: none;">
                                 </div>
                             </a>
-                        <a href="#">
+                <a href="#">
                                 联系我们
                                 <div class="navBg" style="display: none;">
                                 </div>
                             </a>
-                    </div>
-                </div>
             </div>
-            </div>
-            
-            </div>
-            <!-- <div id="box">
-                
-            </div>  -->
-            <div id="js_banner" class="banner">
-    <ul id="js_banner_img" class="banner_img ">
-        <li class="bgli01">
-            <div class="banner_inner">
-                <div class="child child1" data-z="2"><img src="images/1-1.png" /></div>
-            </div>
-        </li>
-        <li class="bgli02">
-            <div class="banner_inner">
-                <div class="child child1" data-z="2"><img src="images/2-1.png" /></div>
-            </div>
-        </li>
-        <li class="bgli03">
-            <div class="banner_inner">
-                <div class="child child1" data-z="2"><img src="images/3-1.png" /></div>
-            </div>
-        </li>
-    </ul>
-    <div class="banner_common">
-        <a id="js_banner_pre" href="javascript:;" class="banner_pre"></a>
-        <a id="js_banner_next" href="javascript:;" class="banner_next"></a>
+        </div>
     </div>
-</div>
-
-            <div class="ywjs">
-                <div class="ywjs_cen">
-                    <h2>· 产品与解决方案 ·</h2>
-                    <dl>
-                        <dd>
-                            <a href="javacript:void(0)">
-                                <img src="./oto_images/yifu.png">
-                                <br> 服装服饰
-                            </a>
-                        </dd>
-                        <dd>
-                            <a href="javacript:void(0)">
-                                <img src="./oto_images/dianqi.png">
-                                <br> 家用电器
-                            </a>
-                        </dd>
-                        <dd>
-                            <a href="javacript:void(0)">
-                                <img src="./oto_images/huazhuangping.png">
-                                <br> 日用及化妆品
-                            </a>
-                        </dd>
-                        <dd>
-                            <a href="javacript:void(0)">
-                                <img src="./oto_images/shiping.png">
-                                <br> 食品
-                            </a>
-                        </dd>
-                        <dd>
-                            <a href="javacript:void(0)">
-                                <img src="./oto_images/yintong.png">
-                                <br> 婴童用品
-                            </a>
-                        </dd>
-                    </dl>
+    </div>
+    </div>
+    
+    <div id="js_banner" class="banner">
+        <ul id="js_banner_img" class="banner_img ">
+            <li class="bgli01">
+                <div class="banner_inner">
+                    <div class="child child1" data-z="2"><img src="images/1-1.png" /></div>
                 </div>
-            </div>
-            <div class="cl" style="width: 100%; position: relative;">
-                <div id="servicesBox">
-                    <div class="fuwu">
-                        <div class="fuwu_left inline-block">
-                            <h2 class="fuwu_title" id="fuwu_title1">我们的服务</h2>
-                            <div class="fuwu_img">
-                                <div class="wrapimg block-center">
-                                        <img src="oto_images/zhengfu.png" alt="" id="zhengfu">
-                                        <!-- <p>政府</p> -->
-                                </div>
-                                <div class="wrapimg block-center" id="qiye_wrap">
-                                        <img src="oto_images/qiye.png" alt="" id="qiye">
-                                        <!-- <p>企业</p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="fuwu_right inline-block">
-                            <h2 class="fuwu_title">我们的检测系统（入口）</h2>
-                            <ul class="jiance_ul">
-                                <li id="jiance_1"><a href="#" class="jiance">DataMicro<br>网络零售监测与研究</a></li>
-                                <li id="jiance_2"><a href="#" class="jiance">DataMicro<br>网络宏观经济研究</a></li>
-                            </ul>
-                        </div>
-                        <!-- <div class="row">
+            </li>
+            <li class="bgli02">
+                <div class="banner_inner">
+                    <div class="child child1" data-z="2"><img src="images/2-1.png" /></div>
+                </div>
+            </li>
+            <li class="bgli03">
+                <div class="banner_inner">
+                    <div class="child child1" data-z="2"><img src="images/3-1.png" /></div>
+                </div>
+            </li>
+        </ul>
+        <div class="banner_common">
+            <a id="js_banner_pre" href="javascript:;" class="banner_pre"></a>
+            <a id="js_banner_next" href="javascript:;" class="banner_next"></a>
+        </div>
+    </div>
+    <div class="ywjs">
+        <div class="ywjs_cen">
+            <h2>· 产品与解决方案 ·</h2>
+            <dl>
+                <dd>
+                    <a href="javacript:void(0)">
+                        <img src="./oto_images/yifu.png">
+                        <br> 服装服饰
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javacript:void(0)">
+                        <img src="./oto_images/dianqi.png">
+                        <br> 家用电器
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javacript:void(0)">
+                        <img src="./oto_images/huazhuangping.png">
+                        <br> 日用及化妆品
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javacript:void(0)">
+                        <img src="./oto_images/shiping.png">
+                        <br> 食品
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javacript:void(0)">
+                        <img src="./oto_images/yintong.png">
+                        <br> 婴童用品
+                    </a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+            <div class="container" id="fuwu_container">
+                <div class="row">
                             <div class="col-md-5 col-md-offset-1  text-center">
                                 <div class="col-md-4 text-center">
                                     <div class="wrapimg block-center">
@@ -224,11 +199,9 @@
                                     <h4 class="info_1">企业推动着经济的发展</h4>
                                 </div>
                             </div>
-                        </div> -->
-                    </div>
                 </div>
             </div>
-            <!-- <div class="nav_bar">
+    <!-- <div class="nav_bar">
                 <div class="container" id="wrap_2">
                     <div class="row">
                         <div class="col-md-3 col-xs-3 text-center info_3">
@@ -243,62 +216,63 @@
                     </div>
                 </div>
             </div> -->
-            <div class="nav_bar">
-                <div class="mid_width">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+    <div class="nav_bar">
+        <div class="mid_width">
+            <ul>
+                <li>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="introduce">
+        <div class="container" id="wrap_3">
+            <div class="row">
+                <div class="col-md-4 col-xs-6 text-center">
+                    <img src="oto_images/about_us.jpg" alt="">
+                </div>
+                <div class="col-md-8 col-xs-6 text-left info_4">
+                    <h1>企业介绍</h1>
+                    <h4>北京欧特欧国际信息咨询有限公司隶属于中华全国商业信息中心，中心是国家商务部、国家统计局授权的零售业唯一行业权威职能统计部门，担负着对零售业统计数据搜集、汇总、发布、市场分析、预测、引导消费等重要行政职能，在商贸零售领域为工业和信息化部、商务部、国资委、国家统计局等国家相关部委、领导对政策的制定、全面掌握市场的走向提供意见和建议。我中心监测统计的数据和分析报告也为各相关生产企业了解市场销售信息、产品销售动态及行业发展趋势提供决策依据。</h4>
                 </div>
             </div>
-            <div class="introduce">
-                <div class="container" id="wrap_3">
-                    <div class="row">
-                        <div class="col-md-4 col-xs-6 text-center">
-                            <img src="oto_images/about_us.jpg" alt="">
-                        </div>
-                        <div class="col-md-8 col-xs-6 text-left info_4">
-                            <h1>企业介绍</h1>
-                            <h4>北京欧特欧国际信息咨询有限公司隶属于中华全国商业信息中心，中心是国家商务部、国家统计局授权的零售业唯一行业权威职能统计部门，担负着对零售业统计数据搜集、汇总、发布、市场分析、预测、引导消费等重要行政职能，在商贸零售领域为工业和信息化部、商务部、国资委、国家统计局等国家相关部委、领导对政策的制定、全面掌握市场的走向提供意见和建议。我中心监测统计的数据和分析报告也为各相关生产企业了解市场销售信息、产品销售动态及行业发展趋势提供决策依据。</h4>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <div class="contact_us">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center">  我们以高效、强大的研发设计团队，为每位各户配备专业支持的团队，为客户进行系统选择及系统规划和设计  </h3>
+                <h1>  联系我们  </h1>
+                <div class="col-md-4 col-xs-4 block-left">
+                    <img src="oto_images/map.jpg" class="img_map" alt="" />
                 </div>
-            </div>
-            <div class="contact_us">
-                <div class="container">
-                    <div class="row">
-                        <h3 class="text-center">  我们以高效、强大的研发设计团队，为每位各户配备专业支持的团队，为客户进行系统选择及系统规划和设计  </h3>
-                        <h1>  联系我们  </h1>
-                        <div class="col-md-4 col-xs-4 block-left">
-                            <img src="oto_images/map.jpg" class="img_map" alt="" />
-                        </div>
-                        <div class="col-md-5 col-xs-5 text-center">
-                            <h4>地址：北京市朝阳区望京街10号望京SOHO塔1A座1216 <br>
+                <div class="col-md-5 col-xs-5 text-center">
+                    <h4>地址：北京市朝阳区望京街10号望京SOHO塔1A座1216 <br>
                                 邮编：100102 <br>
                                 电话：010-84414358、84414356 <br>
                                 传真：010-84414360<br>
                                 邮箱：sales@o-odata.cn
 
                             </h4></div>
-                        <div class="col-md-3 col-xs-3 text-center">
-                            <img src="oto_images/erweima.jpg" class="img_erweima" alt="">
-                        </div>
-                    </div>
+                <div class="col-md-3 col-xs-3 text-center">
+                    <img src="oto_images/erweima.jpg" class="img_erweima" alt="">
                 </div>
             </div>
-            <footer>
-                <p class="text-center">
-                    © 2015-2018 欧特欧咨询 版权所有。京ICP备14057162号
-                </p>
-            </footer>
-            <!--clients_box-->
-            <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-             <script type="text/javascript" src="js/jquery.easing.js"></script>
-            <script type="text/javascript" src="js/bootstrap.min.js"></script>
-            <script type="text/javascript">
-    $(function(){
+        </div>
+    </div>
+    <footer>
+        <p class="text-center">
+            © 2015-2018 欧特欧咨询 版权所有。京ICP备14057162号
+        </p>
+    </footer>
+    <!--clients_box-->
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
         var $window = $(window),
             window_width = $window.width();
         $('#js_banner, #js_banner_img li').width(window_width);
@@ -306,10 +280,10 @@
         var urlParam = G.util.parse.url(),
             startFrame = 0;
         if (urlParam.search && ('banner' in urlParam.search)) {
-            startFrame = (parseInt(urlParam.search['banner'])-1) || 0;
+            startFrame = (parseInt(urlParam.search['banner']) - 1) || 0;
         }
 
-        new $.Tab({/*添加圆点按钮*/
+        new $.Tab({ /*添加圆点按钮*/
             target: $('#js_banner_img li'),
             effect: 'slide3d',
             animateTime: 1000,
@@ -320,12 +294,11 @@
             prevBtn: $('#js_banner_pre'),
             nextBtn: $('#js_banner_next')
         });
-        $('#js_banner_img').css('left','-' + (window_width * startFrame) + 'px');
+        $('#js_banner_img').css('left', '-' + (window_width * startFrame) + 'px');
     })
-</script>
-            <script type="text/javascript" src="js/jqueryba.js"></script>
-            <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;"><a href="javascript:void(0)" class="backTop">&nbsp;</a></div>
-
+    </script>
+    <script type="text/javascript" src="js/jqueryba.js"></script>
+    <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;"><a href="javascript:void(0)" class="backTop">&nbsp;</a></div>
 </body>
 
 </html>
