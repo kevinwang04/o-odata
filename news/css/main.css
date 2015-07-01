@@ -79,6 +79,8 @@
 	height: 850px;
 	background-color: #eee;
 }
+
+/* 右边样式 */
 .content_right{
 	margin-top: 40px;
 	/* border-radius: 25px; */
@@ -152,7 +154,7 @@
 	border-bottom: 2px solid #444;
 }
 .news_list{
-
+	margin-top: 30px;
 }
 .news_list span{
 	margin-top: 5px;
@@ -187,4 +189,20 @@ footer h3{
 	font-family: '微软雅黑';
 	margin-top: 50px;
 	text-align: center;
+}
+
+/* 子页面部分样式 */
+.news_detail header{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: '微软雅黑';
+}
+.news_detail p{
+	padding: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 450;
+	font-family: '微软雅黑';
 }
