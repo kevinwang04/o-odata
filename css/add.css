@@ -3,7 +3,7 @@
 .ywjs{ 
 	
 	width:100%;  
-	background:#e5e5e5;
+	background:#fff;
 }
 .ywjs a img{
 	margin-bottom: 12px;
@@ -40,7 +40,7 @@
 }
 #zhengfu{
 	margin-top: 10px;
-	margin-left: 24px;
+	margin-left: 4px;
 	width: 75px;
 	height: 75px;
 }
@@ -50,7 +50,10 @@
 	margin-left: 22px;
 }
 #qiye{
+	margin-top: 2px;
 	margin-left: 7px;
+	width: 100px;
+	height: 100px;
 }
 .mid_width{
 	width: 800px;
@@ -91,7 +94,7 @@
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
-	background-color: #eee;
+	background-color: #fff;
 }
 
 .info_2{
@@ -214,3 +217,54 @@ footer p{
 	color: #ccc;
 	
 }
+
+
+/* 重构后的部分首页样式 */
+.fuwu_wrap{
+	background-color: #eee;
+}
+#fuwu_container{
+	min-width: 900px;
+	width: 900px!important;
+	padding-bottom: 30px;
+}
+.zhengfu{
+	margin-left: 30px;
+}
+.zhengfu span{
+	display: block;
+	margin-top: 7px;
+	font-size: 16px;
+}
+.qiye{
+	margin-left: 70px;
+}
+.qiye span{
+	display: block;
+	margin-top: -9px;
+}
+#fuwu_container h3{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-left: 60px;
+}
+.rukou ul li{
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.rukou ul li a{
+	line-height: 23px;
+	font-size: 16px;
+	color: #444;
+}
+.rukou ul li a:hover{
+	text-decoration: none;
+	color: #906161;
+}
+/* .rukou span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 3px solid #888;
+} */

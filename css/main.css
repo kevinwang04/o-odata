@@ -1,3 +1,6 @@
+html{
+	width: 100%;
+}
 .topHeader {
 	width: 100%;
 	height: 69px;
@@ -9,7 +12,7 @@
 	left: 0;
 }
 #header {
-	width: 1200px;
+	width: 900px;
 	clear: both;
 	height: 69px;
 	margin: 0 auto;
@@ -61,11 +64,17 @@
 	display: none;
 }
 
+.header_img_big{
+	min-width:1200px!important;
+	width: 100%!important;
+	padding: 0!important;
+}
 .header_img{
-	width:100%!important;
+	min-width:1200px!important;
 	padding: 0!important;
 }
 #header_img{
+	
 	width: 100%;
 	height: 250px;
 }
@@ -151,6 +160,9 @@
 	font-family: '微软雅黑';
 	margin-left: 20px;
 	padding-bottom: 10px;
+	/* border-bottom: 2px solid #444; */
+}
+.has_border{
 	border-bottom: 2px solid #444;
 }
 .news_list{
@@ -165,15 +177,20 @@
 	border-radius: 35%;
 	background-color: #46C7C7;
 }
-.news_list li{
+/* .news_list li{
 	list-style: none;
 	margin-top: 15px;
-}
+} */
 .news_list li a{
 	color:#444;
 	font-family: '微软雅黑';
 	font-size: 16px;
-	line-height: 22px;
+	font-weight: 550;
+	/* line-height: 22px; */
+}
+.news_list li a:hover{
+	text-decoration: none;
+	color: #1F30A6;
 }
 
 footer{
@@ -191,7 +208,7 @@ footer h3{
 	text-align: center;
 }
 
-/* 子页面部分样式 */
+/* NEWS子页面部分样式 */
 .news_detail header{
 	margin-top: 50px;
 	text-align: center;
@@ -205,4 +222,112 @@ footer h3{
 	line-height: 30px;
 	font-weight: 450;
 	font-family: '微软雅黑';
+}
+/* 部分公用样式 */
+.active{
+	background-color: #46C7C7!important;
+}
+
+/* 服装服饰类部分 */
+#sub_title{
+	font-size: 18px;
+}
+.header_left{
+	margin: 20px 40px;
+}
+.header_right{
+	height: 250px;
+	margin: 20px 0px;
+	padding: 0!important;
+	margin-left: -10px;
+	box-shadow: 1px 1px 1px #444;
+}
+.header_right ul{
+	padding-left: 0;
+	
+}
+.header_right li{
+	list-style: none;
+	border-bottom: 2px solid #999;
+	width: 100%;
+	height: 50px;
+	background-color: #ccc;
+}
+.header_right li:hover{
+	background-color: #79E2E2;
+}
+.header_right li:hover a{
+	color: #eee;
+	text-decoration: none;
+}
+.header_right a{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 30px;
+	color: #444;
+	font-size: 20px;
+	font-family: '微软雅黑';
+}
+.month,.year{
+	padding:20px 60px;
+}
+.month img,.year img{
+	width: 30px;
+	height: 30px;
+	margin-top: -10px;
+}
+.news_list h4{
+	line-height: 40px;
+	font-family: '微软雅黑';
+	font-size: 25px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #444;
+}
+.news_list li{
+	list-style: none;
+	border-bottom: 2px dashed #888;
+}
+.news_list a{
+	line-height: 50px;
+}
+
+/* 关于我们公司简介部分样式 */
+.header_right_us{
+	height: 250px;
+	margin: 20px 0px;
+	padding: 0!important;
+	margin-left: -10px;
+	box-shadow: 1px 1px 1px #444;
+}
+.header_right_us ul{
+	padding-left: 0;
+	
+}
+.header_right_us li{
+	list-style: none;
+	border-bottom: 2px solid #999;
+	width: 100%;
+	height: 84px;
+	background-color: #ccc;
+}
+.header_right_us li:hover{
+	background-color: #79E2E2;
+}
+.header_right_us li:hover a{
+	color: #eee;
+	text-decoration: none;
+}
+.header_right_us a{
+	display: inline-block;
+	margin-top: 26px;
+	margin-left: 30px;
+	color: #444;
+	font-size: 20px;
+	font-family: '微软雅黑';
+}
+#introduce{
+	border-bottom: none;
+	line-height: 25px;
+	font-family: '微软雅黑';
+	font-size: 20px;
 }
