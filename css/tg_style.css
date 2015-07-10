@@ -199,7 +199,7 @@ a.searchOn, a.searchBt:hover {
 	color: #0D0D0D;text-decoration: none;
 }
 .top_nav a.on, .top_nav a.on:visited, .top_nav a.on:hover, .top_nav a:hover {
-	color: #ffffff;
+	color: #1326AD;
 }
 .navBg {
 	background: url(../images/nav_bg.gif) no-repeat 0px 0px;
